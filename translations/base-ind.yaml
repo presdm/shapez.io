@@ -6,11 +6,17 @@ steamPage:
     intro: >-
         Anda suka game otomasi? Maka anda berada di tempat yang tepat!
     
-        Shapez.io adalah game santai dimana anda harus membuat pabrik untuk mengotomatiskan produksi bentuk-bentuk geometris. Semakin meningkatnya level, bentuk-bentuknya menjadi lebih kompleks, dan anda perlu meluas di peta yang tak terbatas.
+        Shapez.io adalah game santai dimana anda harus membuat pabrik untuk mengotomatiskan 
+        produksi bentuk-bentuk geometris. Semakin meningkatnya level, bentuk-bentuknya 
+        menjadi lebih kompleks, dan anda perlu meluas di peta yang tak terbatas.
 
-        Dan jita itu tidak cukup, anda juga perlu untuk memproduksi secara ekxponensial untuk memenuhkan kebutuhan - hal yang membantu hanyalah memperbesar pabrik! Walaupun anda hanya memproses bentuk di awal, nantinya anda harus memberinya warna - dengan mengekstrak dan mencampur warna!
+        Dan jita itu tidak cukup, anda juga perlu untuk memproduksi secara ekxponensial 
+        untuk memenuhkan kebutuhan - hal yang membantu hanyalah memperbesar pabrik! 
+        Walaupun anda hanya memproses bentuk di awal, nantinya anda harus memberinya 
+        warna - dengan mengekstrak dan mencampur warna!
 
-        Membeli game ini di Steam memberikan anda akses ke versi lengkap, namun anda juga dapat mencoba demo dan memutuskan nanti!
+        Membeli game ini di Steam memberikan anda akses ke versi lengkap, 
+        namun anda juga dapat mencoba demo dan memutuskan nanti!
     title_advantages: Keuntungan versi lengkap
     advantages:
         - <b>12 Level Baru</b> dengan total 26 level
@@ -198,14 +204,16 @@ dialogs:
     editSignal:
         title: Atur Tanda
         descItems: "Pilih item yang telah ditentukan sebelumnya:"
-        descShortKey: ... atau masukkan <strong>kunci pintas</strong> dari bentuk (Yang bisa anda buat sendiri <link>disini</link>)
+        descShortKey: ... atau masukkan <strong>kunci pintas</strong> dari bentuk 
+            (Yang bisa anda buat sendiri <link>disini</link>)
     renameSavegame:
         title: Ganti Nama Data Simpanan
         desc: Anda bisa mengganti nama data simpanan di sini.
     entityWarning:
         title: Peringatan Kapasitas
         desc: Anda telah membangun banyak bangunan, ini hanya sebuah peringatan kecil bahwa
-            game ini tidak dapat menangani jumlah bangunan yang tak terbatas - Jadi cobalah untuk membangun pabrik yang rapat.
+            game ini tidak dapat menangani jumlah bangunan yang tak terbatas - 
+            Jadi cobalah untuk membangun pabrik yang rapat.
 ingame:
     keybindingsOverlay:
         moveMap: Pindahkan
@@ -475,8 +483,9 @@ buildings:
             description: Mengecat bentuk-bentuk dari input kiri dengan warna dari input atas.
         quad:
             name: Pengecat (Empat Bagian)
-            description: Memungkinkan anda untuk mengecat tiap kuadrannya masing - masing pada bentuk. Hanya menyambung dengan
-                <strong>sinyal yang benar</strong> pada lapisan kabel yang akan dicat!
+            description: Memungkinkan anda untuk mengecat tiap kuadrannya masing - masing 
+                pada bentuk. Hanya menyambung dengan <strong>sinyal yang benar</strong> 
+                pada lapisan kabel yang akan dicat!
     trash:
         default:
             name: Tong Sampah
@@ -553,8 +562,8 @@ buildings:
     reader:
         default:
             name: Pembaca Sabuk Konveyor
-            description: Memungkinkan untuk mengukur rata-rata benda yang melewati sabuk konveyor. Mengeluarkan output benda terakhir
-                yang dilewati pada lapisan kabel (Setelah terbuka).
+            description: Memungkinkan untuk mengukur rata-rata benda yang melewati sabuk konveyor. 
+                Mengeluarkan output benda terakhir yang dilewati pada lapisan kabel (Setelah terbuka).
     analyzer:
         default:
             name: Penganalisa bentuk
@@ -603,7 +612,9 @@ storyRewards:
             jarum jam sebesar 90 derajat.
     reward_painter:
         title: Mengecat
-        desc: "<strong>Pengecat</strong> telah dibuka – Ekstraksi beberapa warna (seperti yang Anda lakukan dengan bentuk) dan kemudian kombinasikan dengan bentuk di dalam pengecat untuk mewarnai mereka!<br><br> Catatan:
+        desc: "<strong>Pengecat</strong> telah dibuka – Ekstraksi beberapa warna 
+            (seperti yang Anda lakukan dengan bentuk) dan kemudian kombinasikan
+            dengan bentuk di dalam pengecat untuk mewarnai mereka!<br><br> Catatan:
             Apabila Anda buta warna, terdapat <strong>mode buta warna</strong>
             di dalam pengaturan!"
     reward_mixer:
@@ -634,7 +645,10 @@ storyRewards:
             varian</strong>!
     reward_miner_chainable:
         title: Ekstraktor Merantai
-        desc: "Anda telah membuka <strong>Ekstraktor (Berantai)</strong>! Ia dapat <strong>mengoper sumber daya</strong> ke ekstraktor depannya sehingga anda dapat mengekstrak sumber daya denga lebih efisien!<br><br> NB: Ekstraktor yang lama sudah diganti pada toolbar anda sekarang!"
+        desc: "Anda telah membuka <strong>Ekstraktor (Berantai)</strong>! Ia dapat 
+            <strong>mengoper sumber daya</strong> ke ekstraktor depannya sehingga 
+            anda dapat mengekstrak sumber daya denga lebih efisien!<br><br> NB: 
+            Ekstraktor yang lama sudah diganti pada toolbar anda sekarang!"
     reward_underground_belt_tier_2:
         title: Terowongan Tingkat II
         desc: Anda telah membuka varian baru <strong>terowongan</strong> - Ia memiliki
@@ -652,17 +666,18 @@ storyRewards:
             sekaligus</strong> mengonsumsi hanya satu warna daripada dua!
     reward_storage:
         title: Tempat Penyimpanan
-        desc: Anda telah membuka <strong>Tempat Penyimpanan</strong> - Ia memungkinkan anda untuk
-            menyimpan item hingga kapasitas tertentu!<br><br> Ia mengutamakan output kiri, sehingga anda dapat menggunakannya sebagai <strong>gerbang luapan</strong>!
+        desc: Anda telah membuka <strong>Tempat Penyimpanan</strong> - Ia memungkinkan 
+            anda untuk menyimpan item hingga kapasitas tertentu!<br><br> Ia mengutamakan 
+            output kiri, sehingga anda dapat menggunakannya sebagai <strong>gerbang luapan</strong>!
     reward_freeplay:
         title: Permainan Bebas
-        desc: Anda berhasil! Anda telah membuka <strong>mode permainan bebas</strong>! Ini artinya
-            bentuk-bentuk akan dibuat secara <strong>acak</strong>!<br><br>
-            Karena pusat pangkalan akan membutuhkan <strong>penghasilan</strong> dari sekarang, 
-            Saya sangat menyarankan untuk membangun mesin yang secara otomatis
+        desc: Anda berhasil! Anda telah membuka <strong>mode permainan bebas</strong>! 
+            Ini artinya bentuk-bentuk akan dibuat secara <strong>acak</strong>!<br><br>
+            Karena pusat pangkalan akan membutuhkan <strong>penghasilan</strong> dari 
+            sekarang, Saya sangat menyarankan untuk membangun mesin yang secara otomatis
             mengirim bentuk yang diminta!<br><br> Pusat pangkalan mengeluarkan bentuk
-            yang diminta pada lapisan kabel, jadi yang harus anda lakukan adalah menganalisa dan
-            membangun pabrik secara otomatis berdasarkan itu.
+            yang diminta pada lapisan kabel, jadi yang harus anda lakukan adalah 
+            menganalisa dan membangun pabrik secara otomatis berdasarkan itu.
     reward_blueprints:
         title: Cetak Biru
         desc: Anda sekarang dapat <strong>menyalin dan meletakkan</strong> bagian dari
@@ -690,19 +705,23 @@ storyRewards:
     reward_merger:
         title: Penggabung Sederhana
         desc: Anda telah membuka varian<strong>penggabung</strong> dari
-            <strong>penyeimbang</strong> - Ia menerima dua input dan menggabungkannya dalam satu sabuk konveyor!
+            <strong>penyeimbang</strong> - Ia menerima dua input dan 
+            menggabungkannya dalam satu sabuk konveyor!
     reward_belt_reader:
         title: Pembaca Sabuk Konveyor
-        desc: Anda telah membuka <strong>pembaca sabuk konveyor</strong>! Ini memungkinkan anda untuk
-            mengukur penghasilan dalam sebuah sabuk konveyor.<br><br> Dan tunggu sampai anda membuka
-            kabel - maka ini akan sangat berguna!
+        desc: Anda telah membuka <strong>pembaca sabuk konveyor</strong>! Ini 
+            memungkinkan anda untuk mengukur penghasilan dalam sebuah sabuk konveyor.
+            <br><br> Dan tunggu sampai anda membuka kabel - maka ini akan sangat berguna!
     reward_rotater_180:
         title: Pemutar (180 derajat)
         desc: Anda telah membuka <strong>pemutar</strong> 180 derajat! - Ini memungkinkan
             anda untuk memutar bentuk dalam 180 derajat (Kejutan! :D)
     reward_display:
         title: Layar
-        desc: "Anda baru saja membuka <strong>Layar</strong> - Hubungkan sebuah sinyal dalam lapisan kabel untuk memvisualisasikannya!<br><br> NB: Apakah anda memperhatikan pembaca sabuk dan penyimpanan mengeluarkan item bacaan terakhir? Coba tampilkan pada layar!"
+        desc: "Anda baru saja membuka <strong>Layar</strong> - Hubungkan sebuah sinyal 
+        dalam lapisan kabel untuk memvisualisasikannya!<br><br> NB: Apakah anda 
+        memperhatikan pembaca sabuk dan penyimpanan mengeluarkan item bacaan terakhir? 
+        Coba tampilkan pada layar!"
     reward_constant_signal:
         title: Constant Signal
         desc: You unlocked the <strong>constant signal</strong> building on the wires
